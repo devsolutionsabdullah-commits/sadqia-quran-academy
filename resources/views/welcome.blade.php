@@ -1,0 +1,16 @@
+@extends('layouts.app')
+
+@section('content')
+@include('partials.hero')
+@include('partials.countries')
+@include('partials.stats')
+@include('partials.about')
+@include('partials.courses')
+@include('partials.why-us')
+@include('partials.how-it-works')
+@include('partials.progress')
+@include('partials.testimonials')
+@include('partials.faq')
+@include('partials.cta')
+@include('partials.contact', ['courses' => $courses])
+@endsection
